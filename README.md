@@ -1,7 +1,7 @@
 
 ------
 
-This is Food Recognition App I built with TensorFlow model in a Swift app.  Basic tutorial included but happy to add more if there are enough requested!
+This is Food Recognition App I built with a TensorFlow model in a Swift iOS app.  Basic tutorial included but happy to add more if there are enough requested!
 
 ## Live DEMO
 
