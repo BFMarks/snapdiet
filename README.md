@@ -5,7 +5,9 @@ This is Food Recognition App I built with TensorFlow model in a Swift app.  Basi
 
 ## Live DEMO
 
-[![Demo CountPages alpha](https://media.giphy.com/media/3oFzlZ1zrgQ9TXtoXK/giphy.gif)
+![Alt Text](https://github.com/BFMarks/snapdiet/blob/master/demo.gif)
+
+*Notice the image accuracy at the bottom left.
 
 
 ## Technology in the project.
@@ -51,5 +53,5 @@ This is a really great collection view embedded in a table view to create a very
 
 ![alt text](https://www.evernote.com/shard/s689/sh/eb39aeb8-40c7-48fc-a73e-df33ea6a1ce2/ab62f01bb895de2e/res/29baaf54-039f-4ed2-abc6-e7d5dbb8c256/skitch.png?resizeSmall&width=832)
 
-##Last Points
-This is a fairly large project with a backend written in Node.js (not included)
+###[Last Points]
+This is a fairly large project with a backend written in Node.js (not included) so it may not work as expected with out some dev time.  Please let me know your thoughts!
