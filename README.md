@@ -5,10 +5,10 @@ This is Food Recognition App I built with TensorFlow model in a Swift app.  Basi
 
 ## Live DEMO
 
-![alt text](https://media.giphy.com/media/3oFzlZ1zrgQ9TXtoXK/giphy.gif)
+[![Demo CountPages alpha](https://media.giphy.com/media/3oFzlZ1zrgQ9TXtoXK/giphy.gif)
 
 
-## These are the technology in the project.
+## Technology in the project.
 
  - [TensorFlow](https://github.com/tensorflow/tensorflow)
  - [AlamoFire](https://github.com/Alamofire/Alamofire)
@@ -17,19 +17,13 @@ This is Food Recognition App I built with TensorFlow model in a Swift app.  Basi
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/https://www.paypal.me/bfmarks)
 Donations will be put back in tutorials (but please don't feel like it's necessary).
 
-## Installation
+## Background
 
-### Install the SDK's by opening terminal to root directory of your project.
+This app imports a Tensorflow image recognition model into a Swift app and runs the model every third of a second.  The training dataset used to create the model can be found with the [Food 101 Keras Dataset](https://github.com/stratospark/food-101-keras) or the [Food Cam Japanese Dataset](http://foodcam.mobi/dataset100.html).  Since robust training sets are essential in creating accurate models, I also built a script that pulls images from Flickr and used it to add to the dataset (Please feel free to reach out if you would like it).  This project is build in conjenction with [Morten-Just Trainer Mac](https://github.com/mortenjust/trainer-mac/issues).
 
-    pod install
-
-### Open the Xcode Workspace (not the project)
-
-    Recovery.xcworkspace
-
-
-
-## [Treatment Table View](https://github.com/BFMarks/Recovery/blob/master/RecoveryAI/TableViewController.swift)
+### Key Files
+## [Config.swift](https://github.com/BFMarks/snapdiet/blob/master/Config.swift)
+Allows you to set the confidence variable, which determines
 
 
 ![alt text](https://www.evernote.com/shard/s689/sh/9ab12a82-2210-4c7a-992f-4f71499a0596/644a60765f62f2e9/res/779b2d62-74e7-4f31-9aa3-d10c51290e01/skitch.png?resizeSmall&width=832)
