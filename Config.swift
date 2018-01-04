@@ -14,7 +14,7 @@ class Config {
     // Lower the confidence if the app doesn't recognize your objects easily
     // Increase if it doesn't recognize correctly
     
-    static var confidence = 0.9
+    static var confidence = 0.99
     
     
     // For every object you train, add a URL that should be opened when the app sees that object
