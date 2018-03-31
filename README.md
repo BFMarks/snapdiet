@@ -23,7 +23,9 @@ Donations will be put back in tutorials (but please don't feel like it's necessa
 
 ## Background
 
-This app imports a Tensorflow image recognition model into a Swift app and runs the model every third of a second.  The training dataset used to create the model can be found with the [Food 101 Keras Dataset](https://github.com/stratospark/food-101-keras) or the [Food Cam Japanese Dataset](http://foodcam.mobi/dataset100.html).  Since robust training sets are essential in creating accurate models, I also built a script that pulls images from Flickr and used it to add to the dataset (Please feel free to reach out if you would like it).  This project is build in conjenction with [Morten-Just Trainer Mac](https://github.com/mortenjust/trainer-mac/).
+This app imports a Tensorflow image recognition model into a Swift app and runs the model every third of a second.  The training dataset used to create the model can be found with the [Food 101 Keras Dataset](https://github.com/stratospark/food-101-keras) or the [Food Cam Japanese Dataset](http://foodcam.mobi/dataset100.html).  
+
+Since robust training sets are essential in creating accurate models, I also built a script that pulls images from Flickr and adds to the dataset (Please feel free to reach out if you would like it).  This project is build in conjunction with [Morten-Just Trainer Mac](https://github.com/mortenjust/trainer-mac/).
 
 ## Key Files
 ### [ViewController.swift](https://github.com/BFMarks/snapdiet/blob/master/Tensorswift/ViewController.swift)
